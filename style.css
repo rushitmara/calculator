@@ -1,1 +1,37 @@
+:root {
+  /* colors */
+  --dark: #111;
+  --light: #fff;
+  --dark-gray: #3e4149;
+  --light-gray: #717a89;
+  --green: #5ca19e;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: monospace, sans-serif;
+  font-size: 14px;
+}
+
+  /* custom properties */
+
+.flexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.num-btn {
+  border-radius: 8px;
+}
+
+.operator-btn {
+  border-radius: 32px;
+}
 
