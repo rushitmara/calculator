@@ -12,7 +12,7 @@
   <main id="calculator">
     <!-- screen -->
     <div class="screen">
-      <div id="result"></div>
+      <div id="result">5</div>
     </div>
     <!-- buttons -->
     <div class="buttons grid">
@@ -20,9 +20,9 @@
       <div class="memories grid">
         <button class="btn memory">M+</button>
         <button class="btn memory">M-</button>
+        <button class="btn memory">MU</button>
         <button class="btn memory">MRC</button>
-        <button class="btn memory">GT</button>
-        <button class="btn memory">CE</button>
+        <button id="ce" class="btn memory">CE</button>
       </div>
       <!-- number buttons -->
       <div class="numbers grid">
@@ -41,14 +41,25 @@
       </div>
       <!-- operator buttons -->
       <div class="operators grid">
-        <button class="btn operator">/</button>
-        <button class="btn operator">*</button>
-        <button class="btn operator">^</button>
-        <button class="btn operator">%</button>
-        <button class="btn operator">-</button>
-        <button class="btn operator">MU</button>
-        <button class="btn operator big">+</button>
-        <button class="btn operator big">=</button>
+        <div class="small grid">
+          <button class="btn operator">/</button>
+          <button class="btn operator">*</button>
+          <button class="btn operator">^</button>
+          <button class="btn operator">√</button>
+          <button class="btn operator">-</button>
+          <button class="btn operator">%</button>
+        </div>
+        <div class="big grid">
+          <button class="btn operator">+</button>
+          <button class="btn operator">=</button>
+        </div>
+      </div>
+      <div class="complex-operators grid">
+        <button class="btn complex-op"></button>
+        <button class="btn complex-op"></button>
+        <button class="btn complex-op"></button>
+        <button class="btn complex-op"></button>
+        <button class="btn complex-op"></button>
       </div>
     </div>
   </main>
